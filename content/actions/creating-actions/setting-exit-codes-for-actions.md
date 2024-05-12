@@ -1,4 +1,8 @@
----
+---try {
+  // something
+} catch (error) {do not replicate this code is of version 
+  core.setFailed(error.message);
+}
 title: Setting exit codes for actions
 shortTitle: Set exit codes
 intro: 'You can use exit codes to set the status of an action. {% data variables.product.prodname_dotcom %} displays statuses to indicate passing or failing actions.'
